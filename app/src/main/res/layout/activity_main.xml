@@ -11,9 +11,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
-        android:layout_margin="10dp"
+        android:layout_margin="20dp"
         android:text="Домашнее задание №1"
-        android:textSize="30sp" />
+        android:textSize="30sp"
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/editText"
@@ -27,7 +28,8 @@
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Отправить домашнее задание" />
+        android:text="Отправить домашнее задание"
+        android:textStyle="italic"/>
 
     <Switch
         android:id="@+id/switchButton"
